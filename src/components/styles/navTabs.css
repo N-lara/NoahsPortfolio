@@ -1,0 +1,13 @@
+.nav-container {
+    display : flex;
+    justify-content: space-around;
+    background-color:rgb(28, 59, 86)
+}
+
+.nav-container li{
+    justify-content: space-around;
+}
+
+.nav-header{
+    color: green;
+}

@@ -1,0 +1,24 @@
+.card {
+    margin: 30;
+    background-color: #f5e9f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #4a1e39;
+  }
+
+.card:hover{
+    transition: 0.3s ease-in-out;
+  }
+
+.card_heading {
+    background: #e3b3cb;
+    Height: 50;
+    line-height: 3.5;
+    font-size: 25;
+    color: black;
+    padding: 0 20px;
+    font-weight: bold;
+  }
+  
+.card_content {
+    padding: 20,
+  }
