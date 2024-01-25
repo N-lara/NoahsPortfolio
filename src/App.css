@@ -20,9 +20,3 @@ a:hover{
 a:active{
   color: red;
 }
-
-.flex-around{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
