@@ -1,0 +1,8 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.contact li{
+    list-style-type: none;
+}

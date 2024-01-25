@@ -6,7 +6,7 @@ import Contact from'./components/pages/Contact'
 
 const App = () => 
     <>
-    <NavTabs/>
+    <NavTabs className={'Hello'}/>
     <About/>
     <Projects/>
     <Contact/>

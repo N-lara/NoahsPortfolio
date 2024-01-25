@@ -1,0 +1,41 @@
+.about{
+  display: flex; 
+}
+
+.selfie-div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selfie{
+    border-radius: 300px;
+    height: 250px;
+    position: relative;
+    bottom: 25px;
+    left: 35px;
+}
+
+.about-info{
+width: 50%;
+line-height: 25px;
+padding: 0px 10% 0px 10%;
+}
+
+.about-start{
+font-weight: 600;
+font-size: 30px;    
+}
+
+@media screen and (max-width: 760px) {
+
+    .about{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .selfie{
+        bottom: 0px;
+        left: 0px;
+    }
+}

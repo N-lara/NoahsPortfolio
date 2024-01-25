@@ -1,13 +1,16 @@
 .nav-container {
     display : flex;
     justify-content: space-around;
-    background-color:rgb(28, 59, 86)
-}
-
-.nav-container li{
-    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(23, 80, 129);
+    padding:1.9vh;
+    list-style-type: none;
+    border-radius: 40px;
+    box-shadow: 0px 0px 5px rgb(23, 80, 129), 2px 3px 2px rgb(2, 2, 2);
 }
 
 .nav-header{
-    color: green;
+    color: rgb(39, 169, 39);
+    font-weight: 1000;
+    font-size: large;
 }

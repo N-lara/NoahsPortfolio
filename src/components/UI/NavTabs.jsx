@@ -9,7 +9,7 @@ export default function NavTabs() {
         <a href="#about"> About </a>
       </li>
       <li className="nav-item">
-        <a href="#Projects"> Projects </a>
+        <a href="#projects"> Projects </a>
       </li>
       <li className="nav-item">
         <a href="#contact"> Contact </a>
