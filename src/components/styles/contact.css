@@ -1,6 +1,7 @@
 .contact{
     display: flex;
     justify-content: space-around;
+    padding-top: 15px;
 }
 .contact li{
     list-style-type: none;
