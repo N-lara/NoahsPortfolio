@@ -2,11 +2,11 @@ import { useState } from 'react';
 import '../styles/projects.css';
 import jateImage from '../../assets/JATE.png'
 import blogpostImage from '../../assets/blogpost.png'
+import weatherImage from '../../assets/Weather.png'
 
 
 const projects = [
   {
-    id:'JATE',
     name: "Just Another Text Editor",
     description: `J.A.T.E is a text editor created with HTML, CSS, Javascript, Webpack, Workbox, IDB, and Express.js that runs in the browser for you to code.`,
     repo: 'https://github.com/N-lara/Text-editor',
@@ -14,47 +14,28 @@ const projects = [
     image: jateImage
   },
   {
-    id:'blog',
-    name: "Blogpost Website",
-    description: `This is a website I built with handlebars, bcrypt, myslq, HTML, CSS JavaScript, and express.js to mock-up a blog website where users ccreate a profile and interact with other users through posts and comments`,
-    repo: 'https://github.com/N-lara/Text-editor',
-    anchor: 'https://desolate-hollows-52185-78d44b985b86.herokuapp.com/',
-    image: blogpostImage
+    name: "Weather Website",
+    description: `This is a website I built using the openWeatherMapAPI and countryStateCityAPI, with HTML, CSS, and Javascript`,
+    repo: 'https://github.com/N-lara/weather-website/',
+    anchor: 'https://n-lara.github.io/weather-website/',
+    image: weatherImage
   },
   {
-    id:'id3',
     name: "Blogpost Website",
     description: `This is a website I built with handlebars, bcrypt, myslq, HTML, CSS JavaScript, and express.js to mock-up a blog website where users ccreate a profile and interact with other users through posts and comments`,
     repo: 'https://github.com/N-lara/Text-editor',
     anchor: 'https://desolate-hollows-52185-78d44b985b86.herokuapp.com/',
     image: blogpostImage
   },
-  {
-    id:'id4',
-    name: "Blogpost Website",
-    description: `This is a website I built with handlebars, bcrypt, myslq, HTML, CSS JavaScript, and express.js to mock-up a blog website where users ccreate a profile and interact with other users through posts and comments`,
-    repo: 'https://github.com/N-lara/Text-editor',
-    anchor: 'https://desolate-hollows-52185-78d44b985b86.herokuapp.com/',
-    image: blogpostImage
-  },
-  {
-    id:'id5',
-    name: "Blogpost Website",
-    description: `This is a website I built with handlebars, bcrypt, myslq, HTML, CSS JavaScript, and express.js to mock-up a blog website where users ccreate a profile and interact with other users through posts and comments`,
-    repo: 'https://github.com/N-lara/Text-editor',
-    anchor: 'https://desolate-hollows-52185-78d44b985b86.herokuapp.com/',
-    image: blogpostImage
-  },
-  {
-    id:'id6',
-    name: "Blogpost Website",
-    description: `This is a website I built with handlebars, bcrypt, myslq, HTML, CSS JavaScript, and express.js to mock-up a blog website where users ccreate a profile and interact with other users through posts and comments`,
-    repo: 'https://github.com/N-lara/Text-editor',
-    anchor: 'https://desolate-hollows-52185-78d44b985b86.herokuapp.com/',
-    image: blogpostImage
-  },
+  //template for new projects
+  // {
+  //   name: "projectTitle",
+  //   description: "lorem ipsum...",
+  //   repo: "repoURL",
+  //   anchor: "anchorURL",
+  //   image: imageVar
+  // },
 ]
-
 
 export default function Projects() {
   const [card1, setCard1] = useState(0);
