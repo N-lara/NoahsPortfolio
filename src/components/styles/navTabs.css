@@ -14,3 +14,8 @@
     font-weight: 1000;
     font-size: large;
 }
+@media screen and (max-width: 760px) {
+    .nav-container{
+        flex-wrap: wrap;
+    }
+}

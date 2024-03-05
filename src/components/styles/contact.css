@@ -6,3 +6,9 @@
 .contact li{
     list-style-type: none;
 }
+@media screen and (max-width: 760px) {
+    .contact{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+}

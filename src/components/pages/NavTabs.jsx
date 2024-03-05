@@ -5,13 +5,13 @@ export default function NavTabs() {
       <li className="nav-header">
         Noah Lara
       </li>
-      <li className="nav-item">
+      <li className="nav-item l">
         <a href="#about"> About </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item l">
         <a href="#projects"> Projects </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item l">
         <a href="#contact"> Contact </a>
       </li>
     </ul>

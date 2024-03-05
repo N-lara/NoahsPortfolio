@@ -1,5 +1,5 @@
 .about{
-  display: flex; 
+    display: flex; 
 }
 
 .selfie-div{
@@ -30,6 +30,11 @@ font-size: 30px;
 }
 
 @media screen and (max-width: 760px) {
+
+    .about-info{
+        padding: 0px;
+        width: 100%;
+        }
 
     .about{
         flex-wrap: wrap;
